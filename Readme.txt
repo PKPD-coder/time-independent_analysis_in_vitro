@@ -25,27 +25,36 @@ This repository contains two Python files that serve as tools to explore the pha
 		f) observed data 		(column name 'Obs') 
 		
 	The path to the data file can be specified on line 231
-	It is encouraged to explicitly name the experimental conditions and compounds in the dataset as to allow easier navigation through 
-	and in the output files 
+	It is encouraged to explicitly name the experimental conditions and compounds in the dataset as to allow easier 
+	navigation through and in the output files 
 	Please provide an empty folder ('Figures') to store the output figures 
 
 	The outputs of the time-independent analysis include:
-		a) plots of raw data per experimental conditions (denoted by the readout and experimental condition)
-		b) EC50 estimations at different time points (denoted ‘Potency Change Over Time’) 
+		a) plots of raw data per experimental conditions 
+			(denoted by the readout and experimental condition)
+		b) EC50 estimations at different time points 
+			(denoted ‘Potency Change Over Time’) 
 		c) EC50 estimation across different experimental conditions including different cells lines and different drugs 
 			(denoted ‘Cumulative Potency’) 
-		d) sigmoidal model fits for each experimental condition (denoted ‘Model Fit’)
-		e) estimated sigmoidal model parameters for the model fits including RSE% values ('Sigmoidal Model Parameters.txt')
-		f) simulations for sigmoidal fits for each experimental condition ('Sigmoidal Model Simulations.xls') 
-		g) calculated AUCE values (AUCE.xls) as well as Hockey-Stick model fits (denoted with 'HOCKEYSTICK') 
-		h) estimated model parameters including RSE% values ('Hockey Stick Parameters.txt') 
-		i) simulations for Hockey stick fits for each experimental condition ('Hockey Stick Model Simulations.xls')
+		d) sigmoidal model fits for each experimental condition 
+			(denoted ‘Model Fit’)
+		e) estimated sigmoidal model parameters for the model fits including RSE% values 
+			('Sigmoidal Model Parameters.txt')
+		f) simulations for sigmoidal fits for each experimental condition 
+			('Sigmoidal Model Simulations.xls') 
+		g) calculated AUCE values (AUCE.xls) as well as Hockey-Stick model fits 
+			(denoted with 'HOCKEYSTICK') 
+		h) estimated model parameters including RSE% values
+			('Hockey Stick Parameters.txt') 
+		i) simulations for Hockey stick fits for each experimental condition 
+			('Hockey Stick Model Simulations.xls')
 
 2) QE_synapse_calculation.py
 
 	Based on the equations derived by Schropp and colleagues (1) to calculate the number of immune synapses (i.e., trimeric complexes) 
 	between CD3-bispecific antibodies, 
-	tumor cells, and T-cells under quasi-equilibrium (QE) assumptions. The equations are summarised in 'QE equations summary.pdf' 
+	tumor cells, and T-cells under quasi-equilibrium (QE) assumptions. 
+	The equations are summarised in 'QE equations summary.pdf' 
 
 	The code enables the calculation of the concentration of immune synapses formed under the experimental conditions specified by the user.
 	If desired, a plot can be generated showing immune synapse formation over a range of concentrations and visualise the bell-shape.
