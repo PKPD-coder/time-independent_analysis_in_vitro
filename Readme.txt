@@ -2,14 +2,14 @@ Read-me
 
 This repository serves as an addendum to the following peer-reviewed article pulished in the AAPS journal (2021):
 
--------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 A novel approach for quantifying the pharmacological activity of T-cell engagers utilizing in vitro time-course experiments 
 and streamlined data analysis
 
 Arthur J Van De Vyver, Miro Eigenmann, Meric Ovacik, Christian Pohl, Sylvia Herter, Tina Weinzierl, Tanja Fauti, 
 Christian Klein, Thorsten Lehr, Marina Bacac, Antje-Christine Walz
 
---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 
 This repository contains two Python files that serve as tools to explore the pharmacology of CD3-bispecific antibodies
 
