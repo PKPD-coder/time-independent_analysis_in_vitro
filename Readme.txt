@@ -51,19 +51,21 @@ This repository contains two Python files that serve as tools to explore the pha
 
 2) QE_synapse_calculation.py
 
-	Based on the equations derived by Schropp and colleagues (1) to calculate the number of immune synapses (i.e., trimeric complexes) 
-	between CD3-bispecific antibodies, 
+	Based on the equations derived by Schropp and colleagues (1) to calculate the number of immune synapses 
+	(i.e., trimeric complexes) between CD3-bispecific antibodies, 
 	tumor cells, and T-cells under quasi-equilibrium (QE) assumptions. 
 	The equations are summarised in 'QE equations summary.pdf' 
 
-	The code enables the calculation of the concentration of immune synapses formed under the experimental conditions specified by the user.
-	If desired, a plot can be generated showing immune synapse formation over a range of concentrations and visualise the bell-shape.
-	Please provide an empty folder ('Figures') to store the output figure.
-	An additional plot can be generated to compare the simulations under QE assumptions with those of the full model with Ordinary Differential Equations
+	The code enables the calculation of the concentration of immune synapses formed under the experimental conditions 
+	specified by the user.
+
+	If desired, a plot can be generated showing immune synapse formation over a range of concentrations and 
+	visualise the bell-shape. Please provide an empty folder ('Figures') to store the output figure.
+	An additional plot can be generated to compare the simulations under QE assumptions with those of the full ODE model
 	
 	      
 
 References:
 
-(1) 1.	Schropp J, Khot A, Shah DK, Koch G. Target-Mediated Drug Disposition Model for Bispecific Antibodies: Properties, Approximation, and 
-	Optimal Dosing Strategy. CPT: Pharmacometrics & Systems Pharmacology. 2019;8(3):177-87. doi: 10.1002/psp4.12369.
+(1) 	Schropp J, Khot A, Shah DK, Koch G. Target-Mediated Drug Disposition Model for Bispecific Antibodies: Properties, 
+	Approximation, and Optimal Dosing Strategy. CPT: Pharmacometrics & Systems Pharmacology. 2019;8(3):177-87. doi: 10.1002/psp4.12369.
