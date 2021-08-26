@@ -3,8 +3,8 @@ Read-me
 This repository serves as an addendum to the following peer-reviewed article pulished in the AAPS journal (2021):
 
 -------------------------------------------------------------------------------------------------------------------------
-A novel approach for quantifying the pharmacological activity of T-cell engagers utilizing in vitro time-course 
-experiments and streamlined data analysis
+A novel approach for quantifying the pharmacological activity of T-cell engagers utilizing in vitro time-course experiments 
+and streamlined data analysis
 
 Arthur J Van De Vyver, Miro Eigenmann, Meric Ovacik, Christian Pohl, Sylvia Herter, Tina Weinzierl, Tanja Fauti, 
 Christian Klein, Thorsten Lehr, Marina Bacac, Antje-Christine Walz
@@ -68,4 +68,5 @@ This repository contains two Python files that serve as tools to explore the pha
 References:
 
 (1) 	Schropp J, Khot A, Shah DK, Koch G. Target-Mediated Drug Disposition Model for Bispecific Antibodies: Properties, 
-	Approximation, and Optimal Dosing Strategy. CPT: Pharmacometrics & Systems Pharmacology. 2019;8(3):177-87. doi: 10.1002/psp4.12369.
+	Approximation, and Optimal Dosing Strategy. CPT: Pharmacometrics & Systems Pharmacology. 2019;8(3):177-87. 
+	doi: 10.1002/psp4.12369.
