@@ -2,12 +2,14 @@ Read-me
 
 This repository serves as an addendum to the following peer-reviewed article pulished in the AAPS journal (2021):
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-A novel approach for quantifying the pharmacological activity of T-cell engagers utilizing in vitro time-course experiments and streamlined data analysis
+------------------------------------------------------------------------------------------------------------------
+A novel approach for quantifying the pharmacological activity of T-cell engagers utilizing in vitro time-course 
+experiments and streamlined data analysis
 
-Arthur J Van De Vyver, Miro Eigenmann, Meric Ovacik, Christian Pohl, Sylvia Herter, Tina Weinzierl, Tanja Fauti, Christian Klein, Thorsten Lehr, Marina Bacac, Antje-Christine Walz
+Arthur J Van De Vyver, Miro Eigenmann, Meric Ovacik, Christian Pohl, Sylvia Herter, Tina Weinzierl, Tanja Fauti, 
+Christian Klein, Thorsten Lehr, Marina Bacac, Antje-Christine Walz
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 
 This repository contains two Python files that serve as tools to explore the pharmacology of CD3-bispecific antibodies
 
@@ -23,13 +25,15 @@ This repository contains two Python files that serve as tools to explore the pha
 		f) observed data 		(column name 'Obs') 
 		
 	The path to the data file can be specified on line 231
-	It is encouraged to explicitly name the experimental conditions and compounds in the dataset as to allow easier navigation through and in the output files 
+	It is encouraged to explicitly name the experimental conditions and compounds in the dataset as to allow easier navigation through 
+	and in the output files 
 	Please provide an empty folder ('Figures') to store the output figures 
 
 	The outputs of the time-independent analysis include:
 		a) plots of raw data per experimental conditions (denoted by the readout and experimental condition)
 		b) EC50 estimations at different time points (denoted ‘Potency Change Over Time’) 
-		c) EC50 estimation across different experimental conditions including different cells lines and different drugs (denoted ‘Cumulative Potency’) 
+		c) EC50 estimation across different experimental conditions including different cells lines and different drugs 
+			(denoted ‘Cumulative Potency’) 
 		d) sigmoidal model fits for each experimental condition (denoted ‘Model Fit’)
 		e) estimated sigmoidal model parameters for the model fits including RSE% values ('Sigmoidal Model Parameters.txt')
 		f) simulations for sigmoidal fits for each experimental condition ('Sigmoidal Model Simulations.xls') 
@@ -39,7 +43,8 @@ This repository contains two Python files that serve as tools to explore the pha
 
 2) QE_synapse_calculation.py
 
-	Based on the equations derived by Schropp and colleagues (1) to calculate the number of immune synapses (i.e., trimeric complexes) between CD3-bispecific antibodies, 
+	Based on the equations derived by Schropp and colleagues (1) to calculate the number of immune synapses (i.e., trimeric complexes) 
+	between CD3-bispecific antibodies, 
 	tumor cells, and T-cells under quasi-equilibrium (QE) assumptions. The equations are summarised in 'QE equations summary.pdf' 
 
 	The code enables the calculation of the concentration of immune synapses formed under the experimental conditions specified by the user.
@@ -51,5 +56,5 @@ This repository contains two Python files that serve as tools to explore the pha
 
 References:
 
-(1) 1.	Schropp J, Khot A, Shah DK, Koch G. Target-Mediated Drug Disposition Model for Bispecific Antibodies: Properties, Approximation, and Optimal Dosing Strategy. 
-	CPT: Pharmacometrics & Systems Pharmacology. 2019;8(3):177-87. doi: 10.1002/psp4.12369.
+(1) 1.	Schropp J, Khot A, Shah DK, Koch G. Target-Mediated Drug Disposition Model for Bispecific Antibodies: Properties, Approximation, and 
+	Optimal Dosing Strategy. CPT: Pharmacometrics & Systems Pharmacology. 2019;8(3):177-87. doi: 10.1002/psp4.12369.
